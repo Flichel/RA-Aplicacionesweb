@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y registro</title>
+    <link rel="stylesheet" href="login-registro2.0.-.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="icon" type="image/jpg/gif" href="img/Juarnachaz.png"/>
+    <link rel="stylesheet" href="login-regirtro.css">
+    
+</head>
+<body>
+        <header class="header">
+        <div class="container">
+            <div class="nav-header">
+                <h1 class="logo">Travel</h1>
+                <div class="airplane-icon">✈️</div>
+            </div>
+            
+            <div class="nav-tabs">
+               <a href="index.html" class="nav-tab">Inicio</a>                
+               <a href="login-register.html" class="nav-tab">Registrate</a>
+                <button class="nav-tab">Vuelos</button>
+                <a href="reservations.html" class="nav-tab inactive">Reservaciones</a>
+                <button class="nav-tab inactive">Hotel + Vuelo</button>
+                <button class="nav-tab inactive">Disney</button>
+            </div>
+            
+
+
+
+
+    <main>
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>Ya tienes una cuenta?</h3>
+                    <p>Inicia sesion para entrar a la pagina</p>
+                    <button id="btn__iniciar-sesion">Iniciar sesion</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>Aun no tienes una cuenta?</h3>
+                    <p>Registrate para que puedas inicar sesion</p>
+                    <button id="btn__registro">Registrarse</button>
+                </div>
+            </div>
+            <!--Formulario de Login y Register-->
+            <div class="contenedor__login-register">
+                <!--Login-->
+                <form action="" class="formulario__login">
+                    <h2>Iniciar sesion</h2>
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contrasena">
+                    <button>Entrar</button>
+                </form>
+                <!--Register-->
+                <form action="" class="formulario__register">
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre Completo">
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contrasena">
+                    <button>Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="scriplogin.js"></script>
+</body>
+</html>
