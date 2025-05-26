@@ -1,6 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: rgb(7, 2, 2);
 }
 
 h1 {
@@ -12,18 +13,20 @@ form {
 }
 
 label {
-    display: block;
-    margin-top: 10px;
+    padding: 1rem;
+    border: 1px solid #d1bfd3;
+    border-radius: 10px;
+    outline: none;
 }
 
 input[type="text"],
 input[type="password"],
 input[type="email"],
 input[type="submit"] {
-    padding: 8px;
-    margin-top: 5px;
-    width: 100%;
-    max-width: 300px;
+    padding: 1rem;
+    border: 1px solid #d1bfd3;
+    border-radius: 10px;
+    outline: none;
 }
 
 input[type="submit"] {
