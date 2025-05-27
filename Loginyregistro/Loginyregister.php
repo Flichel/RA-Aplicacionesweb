@@ -19,10 +19,10 @@
             </div>
 <!--Seccion de navbar-->         
             <div class="nav-tabs">
-               <a href="experimento.html" class="nav-tab">Inicio</a>                
+               <a href="../index.html" class="nav-tab">Inicio</a>                
                <a href="Loginyregister.html" class="nav-tab">Registrate</a>
                 <button class="nav-tab">Vuelos</button>
-                <a href="reservations.html" class="nav-tab inactive">Reservaciones</a>
+                <a href="../Reservaciones/reservations.html" class="nav-tab inactive">Reservaciones</a>
                 <button class="nav-tab inactive">Hotel + Vuelo</button>
                 <button class="nav-tab inactive">Disney</button>
             </div>      
