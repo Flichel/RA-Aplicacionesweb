@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login y registro</title>
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="login-regirtro.css">
+    <link rel="stylesheet" href="login-registro2.0.-.css">
     <link rel="icon" type="image/jpg/gif" href="img/Juarnachaz.png"/> 
 </head>
 <body>
@@ -70,6 +70,6 @@ obtener todos los datos de ese formulario method = "POST" class="formulario__reg
             </div>
         </div>
     </main>
-    <script src="Scrip-login.js"></script>
+    <script src="scriplogin.js"></script>
 </body>
 </html>
