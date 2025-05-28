@@ -36,7 +36,7 @@ Al declarar estas variables vamos a poder almacenar todos los valores de nuestro
 */
 //Ponemos el nombre de nuestro archivo que crea la conexion con la base de datos para poder conectarnos
 // Aqui estamos incluyendo ese archivo sde esa forma tendremos acceso a la variable conexion para abrir la base de datos
-include 'Conexion-Base-de-Datos.php';
+include 'Conexion-Base-de-datos.php';
 
 $nombre_completo = $_POST['nombre_completo'];
 $correo = $_POST['correo'];

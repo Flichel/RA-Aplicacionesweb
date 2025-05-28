@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,3 +74,4 @@ obtener todos los datos de ese formulario method = "POST" class="formulario__reg
     <script src="scriplogin.js"></script>
 </body>
 </html>
+
